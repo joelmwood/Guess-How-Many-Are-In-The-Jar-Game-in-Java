@@ -10,7 +10,7 @@ public class Promptor{
   }
       
   public void play(){
-    console.printf("1 and %d\n", mJar.getAnswer());
+    console.printf("The possible fill amount is between 1 and %d\n", mJar.getAnswer());
     while(!mJar.isSolved()){
       //The following line can be uncommented to show number of attempts during play.
       //displayProgress();
